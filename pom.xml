@@ -14,20 +14,21 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 	
-	<repositories>
-    <repository>
-        <id>upes</id>
-        <name>Releases</name>
-        <url>http://localhost:8081/repository/upes/</url>
-    </repository>
-  </repositories>
-  <distributionManagement>
-    <repository>
-        <id>upes</id>
-        <name>Releases</name>
-        <url>http://localhost:8081/repository/upes/</url>
-    </repository>
-  </distributionManagement>
+<repositories>
+	<repository>
+		<id>upes</id>
+		<name>Releases</name>
+		<url>http://localhost:8081/repository/upes/</url>
+	</repository>
+</repositories>
+
+<distributionManagement>
+	<repository>
+		<id>upes</id>
+        	<name>Releases</name>
+        	<url>http://localhost:8081/repository/upes/</url>
+	</repository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
